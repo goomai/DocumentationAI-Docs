@@ -19,6 +19,19 @@
             "path": "features"
           }
         ]
+      },
+      {
+        "group": "For Marketers",
+        "pages": [
+          {
+            "title": "Overview",
+            "path": "marketing-overview"
+          },
+          {
+            "title": "AI Article Agent",
+            "path": "ai-article-agent"
+          }
+        ]
       }
     ]
   }
