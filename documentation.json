@@ -9,6 +9,10 @@
           {
             "title": "Introduction",
             "path": "introduction"
+          },
+          {
+            "title": "Frequently Asked Questions (FAQs)",
+            "path": "faqs"
           }
         ]
       }
