@@ -30,6 +30,10 @@
             "path": "ai-article-agent"
           },
           {
+            "title": "AI Article Agent Guide",
+            "path": "ai-article-agent-guide"
+          },
+          {
             "title": "Projects and Setup",
             "path": "projects-and-setup"
           },
