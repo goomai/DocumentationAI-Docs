@@ -13,6 +13,10 @@
           {
             "title": "Choosing Your Plan",
             "path": "choosing-your-plan"
+          },
+          {
+            "title": "Setup Project",
+            "path": "setup-project"
           }
         ]
       },
