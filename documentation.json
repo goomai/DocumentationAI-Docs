@@ -7,8 +7,8 @@
         "group": "Getting Started",
         "pages": [
           {
-            "title": "Welcome to HumanizeAI",
-            "path": "welcome-to-humanizeai"
+            "title": "Introduction",
+            "path": "introduction"
           },
           {
             "title": "Choosing Your Plan",
