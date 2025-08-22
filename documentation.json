@@ -39,6 +39,22 @@
           {
             "title": "AI Writer",
             "path": "ai-writer"
+          },
+          {
+            "title": "AI Detector",
+            "path": "ai-detector"
+          },
+          {
+            "title": "Plagiarism Checker",
+            "path": "plagiarism-checker"
+          },
+          {
+            "title": "AI Paraphraser",
+            "path": "ai-paraphraser"
+          },
+          {
+            "title": "Grammar Checker",
+            "path": "grammar-checker"
           }
         ]
       }
