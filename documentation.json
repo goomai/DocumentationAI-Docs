@@ -13,27 +13,32 @@
           {
             "title": "Choosing Your Plan",
             "path": "choosing-your-plan"
-          },
-          {
-            "title": "FAQs",
-            "path": "faqs"
-          },
-          {
-            "title": "All Features",
-            "path": "features"
           }
         ]
       },
       {
-        "group": "For Marketers",
+        "group": "Marketing Tools",
         "pages": [
-          {
-            "title": "Overview",
-            "path": "marketing-overview"
-          },
           {
             "title": "AI Article Agent",
             "path": "ai-article-agent"
+          },
+          {
+            "title": "What's Next",
+            "path": "what-next"
+          }
+        ]
+      },
+      {
+        "group": "Writing Tools",
+        "pages": [
+          {
+            "title": "Humanize AI",
+            "path": "humanize-ai"
+          },
+          {
+            "title": "AI Writer",
+            "path": "ai-writer"
           }
         ]
       }
