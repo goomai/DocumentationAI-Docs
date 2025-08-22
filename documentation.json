@@ -57,6 +57,23 @@
             "path": "grammar-checker"
           }
         ]
+      },
+      {
+        "group": "Account & Billing",
+        "pages": [
+          {
+            "title": "Managing Your Subscription",
+            "path": "manage-subscription"
+          },
+          {
+            "title": "Usage Limits and Credits",
+            "path": "usage-and-credits"
+          },
+          {
+            "title": "Cancellation and Refunds",
+            "path": "cancellation-and-refunds"
+          }
+        ]
       }
     ]
   }
