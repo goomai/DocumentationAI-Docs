@@ -73,6 +73,19 @@
         ]
       },
       {
+        "group": "FAQs",
+        "pages": [
+          {
+            "title": "Frequently Askes Questions (FAQs)",
+            "path": "faqs"
+          },
+          {
+            "title": "How to Generate Content Using Ask AI",
+            "path": "how-to-generate-content-using-ask-ai"
+          }
+        ]
+      },
+      {
         "group": "Account & Billing",
         "pages": [
           {
