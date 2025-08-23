@@ -56,7 +56,7 @@
           },
           {
             "title": "AI Detector",
-            "path": "ai-detector"
+            "path": "ai-content-detector"
           },
           {
             "title": "Plagiarism Checker",
@@ -64,7 +64,7 @@
           },
           {
             "title": "AI Paraphraser",
-            "path": "ai-paraphraser"
+            "path": "paraphraser"
           },
           {
             "title": "Grammar Checker",
