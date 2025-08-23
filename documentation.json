@@ -55,16 +55,16 @@
             "path": "ai-writer"
           },
           {
+            "title": "Plagiarism Checker",
+            "path": "plagiarism-checker"
+          },
+          {
             "title": "AI Detector",
             "path": "ai-detector"
           },
           {
             "title": "AI Paraphraser",
             "path": "paraphraser"
-          },
-          {
-            "title": "Plagiarism Checker",
-            "path": "plagiarism-checker"
           },
           {
             "title": "Grammar Checker",
