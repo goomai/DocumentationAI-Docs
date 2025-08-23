@@ -1,6 +1,6 @@
 {
   "name": "Humanize AI",
-  "initialRoute": "introduction",
+  "initialRoute": "welcome",
   "logo-small-light": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869808317-6pgpd6a7aeb-logo-icon-dark.png",
   "logo-small-dark": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869828493-ik3dg014vl-logo-icon-light.png",
   "logo-light": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869861610-qihiw0j9ph-logo-full-dark.png",
@@ -13,12 +13,12 @@
         "group": "Getting Started",
         "pages": [
           {
-            "title": "Introduction",
-            "path": "introduction"
+            "title": "Welcome",
+            "path": "welcome"
           },
           {
-            "title": "Choosing Your Plan",
-            "path": "choosing-your-plan"
+            "title": "Choose Your Plan",
+            "path": "choose-your-plan"
           }
         ]
       },
