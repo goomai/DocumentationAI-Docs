@@ -72,16 +72,16 @@
         "group": "All FAQs",
         "pages": [
           {
+            "title": "Create article with AI Article Agent",
+            "path": "faq/create-with-ai-article-agent"
+          },
+          {
             "title": "Generate with Ask AI in AI Writer",
             "path": "faq/generate-with-ask-ai"
           },
           {
             "title": "Edit with Ask AI in AI Writer",
             "path": "faq/edit-with-ask-ai"
-          },
-          {
-            "title": "Create article with AI Article Agent",
-            "path": "faq/create-with-ai-article-agent"
           },
           {
             "title": "Activate AppSumo Deal",
