@@ -73,15 +73,15 @@
         "pages": [
           {
             "title": "How to Generate Content Using Ask AI",
-            "path": "how-to-generate-content-using-ask-ai"
+            "path": "faq/how-to-generate-content-using-ask-ai"
           },
           {
             "title": "How to Edit Content Using Ask AI",
-            "path": "how-to-edit-using-ask-ai"
+            "path": "faq/how-to-edit-using-ask-ai"
           },
           {
             "title": "How to use AI Article Agent",
-            "path": "how-to-use-ai-article-agent"
+            "path": "faq/how-to-use-ai-article-agent"
           }
         ]
       },
