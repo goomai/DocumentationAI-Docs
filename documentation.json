@@ -19,6 +19,10 @@
           {
             "title": "Choose Your Plan",
             "path": "choose-your-plan"
+          },
+          {
+            "title": "Frequently Askes Questions (FAQs)",
+            "path": "faqs"
           }
         ]
       },
@@ -67,10 +71,6 @@
       {
         "group": "FAQs",
         "pages": [
-          {
-            "title": "Frequently Askes Questions (FAQs)",
-            "path": "faqs"
-          },
           {
             "title": "How to Generate Content Using Ask AI",
             "path": "how-to-generate-content-using-ask-ai"
