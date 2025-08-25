@@ -72,20 +72,28 @@
         "group": "All FAQs",
         "pages": [
           {
-            "title": "How to Generate Content Using Ask AI",
-            "path": "faq/how-to-generate-content-using-ask-ai"
+            "title": "Generate with Ask AI in AI Writer",
+            "path": "faq/generate-with-ask-ai"
           },
           {
-            "title": "How to Edit Content Using Ask AI",
-            "path": "faq/how-to-edit-using-ask-ai"
+            "title": "Edit with Ask AI in AI Writer",
+            "path": "faq/edit-with-ask-ai"
           },
           {
-            "title": "How to use AI Article Agent",
-            "path": "faq/how-to-use-ai-article-agent"
+            "title": "Create article with AI Article Agent",
+            "path": "faq/create-with-ai-article-agent"
           },
           {
-            "title": "How to Activate AppSumo Deal",
-            "path": "faq/how-to-activate-appsumo-deal"
+            "title": "Activate AppSumo Deal",
+            "path": "faq/activate-appsumo-deal"
+          },
+          {
+            "title": "Upgrade AppSumo Deal",
+            "path": "faq/upgrade-appsumo-deal"
+          },
+          {
+            "title": "Change Appsumo Deal",
+            "path": "faq/change-appsumo-deal"
           }
         ]
       },
