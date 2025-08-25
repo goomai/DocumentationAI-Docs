@@ -59,12 +59,12 @@
             "path": "ai-detector"
           },
           {
-            "title": "AI Paraphraser",
-            "path": "paraphraser"
-          },
-          {
             "title": "Grammar Checker",
             "path": "grammar-checker"
+          },
+          {
+            "title": "AI Paraphraser",
+            "path": "paraphraser"
           }
         ]
       },
