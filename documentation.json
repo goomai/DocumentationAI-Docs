@@ -30,10 +30,6 @@
             "path": "ai-article-agent"
           },
           {
-            "title": "How to Use AI Article Agent",
-            "path": "how-to-use-ai-article-agent"
-          },
-          {
             "title": "What's Next",
             "path": "what-next"
           }
@@ -82,6 +78,10 @@
           {
             "title": "How to Edit Content Using Ask AI",
             "path": "how-to-edit-using-ask-ai"
+          },
+          {
+            "title": "How to use AI Article Agent",
+            "path": "how-to-use-ai-article-agent"
           }
         ]
       },
