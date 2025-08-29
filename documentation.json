@@ -1,14 +1,137 @@
 {
-  "name": "Documentation AI App",
-  "initialRoute": "introduction",
+  "name": "Humanize AI",
+  "initialRoute": "welcome",
+  "logo-small-light": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869808317-6pgpd6a7aeb-logo-icon-dark.png",
+  "logo-small-dark": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869828493-ik3dg014vl-logo-icon-light.png",
+  "logo-light": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869861610-qihiw0j9ph-logo-full-dark.png",
+  "logo-dark": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755869845271-b2wegksaik-logo-full-light.png",
+  "colors": {
+    "light": {
+      "brand": "#171717"
+    },
+    "dark": {
+      "brand": "#fafafa"
+    }
+  },
+  "favicon": "https://dxbnflddnlunfgvtqukc.supabase.co/storage/v1/object/public/documentation-images/org-96d3f74a-c743-4558-b57d-55ba958dcc0d/doc-b2985ceb-da68-4a84-b0e4-c87a4c80dece/1755871238696-ljhntcaoi6i-favicon.ico",
+  "navbar": {
+    "actions": {
+      "primary": {
+        "title": "Get Started",
+        "link": "https://humanizeai.com"
+      },
+      "links": [
+        {
+          "title": "Login",
+          "link": "https://humanizeai.com"
+        }
+      ]
+    }
+  },
   "navigation": {
     "groups": [
       {
         "group": "Getting Started",
         "pages": [
           {
-            "title": "Introduction",
-            "path": "introduction"
+            "title": "Welcome to HumanizeAI",
+            "path": "welcome"
+          },
+          {
+            "title": "Choose Your Plan",
+            "path": "choose-your-plan"
+          },
+          {
+            "title": "Frequently Askes Questions (FAQs)",
+            "path": "faqs"
+          }
+        ]
+      },
+      {
+        "group": "Marketing Tools",
+        "pages": [
+          {
+            "title": "AI Article Agent",
+            "path": "ai-article-agent"
+          },
+          {
+            "title": "What's Next",
+            "path": "what-next"
+          }
+        ]
+      },
+      {
+        "group": "Writing Tools",
+        "pages": [
+          {
+            "title": "Humanize AI",
+            "path": "humanize-ai"
+          },
+          {
+            "title": "AI Writer",
+            "path": "ai-writer"
+          },
+          {
+            "title": "Plagiarism Checker",
+            "path": "plagiarism-checker"
+          },
+          {
+            "title": "AI Detector",
+            "path": "ai-detector"
+          },
+          {
+            "title": "Grammar Checker",
+            "path": "grammar-checker"
+          },
+          {
+            "title": "AI Paraphraser",
+            "path": "paraphraser"
+          }
+        ]
+      },
+      {
+        "group": "All FAQs",
+        "pages": [
+          {
+            "title": "Create article with AI Article Agent",
+            "path": "faq/create-with-ai-article-agent"
+          },
+          {
+            "title": "Generate with Ask AI in AI Writer",
+            "path": "faq/generate-with-ask-ai"
+          },
+          {
+            "title": "Edit with Ask AI in AI Writer",
+            "path": "faq/edit-with-ask-ai"
+          },
+          {
+            "title": "Activate AppSumo Deal",
+            "path": "faq/activate-appsumo-deal"
+          },
+          {
+            "title": "Upgrade AppSumo Deal",
+            "path": "faq/upgrade-appsumo-deal"
+          },
+          {
+            "title": "Change Appsumo Deal",
+            "path": "faq/change-appsumo-deal"
+          }
+        ]
+      },
+      {
+        "group": "Account & Billing",
+        "pages": [
+          {
+            "title": "Managing Your Subscription",
+            "path": "manage-subscription"
+          },
+          {
+            "title": "Usage Limits and Credits",
+            "path": "usage-and-credits"
+          },
+          {
+            "title": "Cancellation and Refunds",
+            "path": "cancellation-and-refunds"
           }
         ]
       }
