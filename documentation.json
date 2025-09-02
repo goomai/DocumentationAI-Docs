@@ -90,8 +90,12 @@
         ]
       },
       {
-        "group": "All FAQs",
+        "group": "FAQs",
         "pages": [
+          {
+            "title": "Transparency and Testing",
+            "path": "faq/transparency-and-testing"
+          },
           {
             "title": "Create article with AI Article Agent",
             "path": "faq/create-with-ai-article-agent"
