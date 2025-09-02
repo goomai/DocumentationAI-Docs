@@ -1,0 +1,42 @@
+---
+title: Transparency and Testing
+---
+
+
+We want to be transparent about how Humanize AI performs and how we test it. Humanize offers two rewrite modes:
+
+- **Balanced** — preserves your natural tone and style while reducing AI‑detector scores. In our internal tests, we aim to keep scores under \~30% on commonly used detectors.
+
+- **Ultra** — stronger transformation for the lowest detector scores, while keeping meaning intact.
+
+## Detectors we monitor
+
+We regularly check results against four widely used detectors:
+
+1. **GPTZero** — [gptzero.me](http://gptzero.me)
+
+2. **QuillBot AI Detector** — [quillbot.com](http://quillbot.com)
+
+3. **ZeroGPT** — [zerogpt.com](http://zerogpt.com)
+
+4. **Grammarly** — [grammarly.com](http://grammarly.com)
+
+## Latest results (20 topic snapshot, as of 1 Sep 2025)
+
+*Arithmetic means across the 20 topics provided; detectors: ZeroGPT, QuillBot, Grammarly, GPTZero.*
+
+| Detector      | Raw AI (baseline) | Humanize — Ultra | Humanize — Balanced |
+| ------------- | ----------------- | ---------------- | ------------------- |
+| **ZeroGPT**   | 99.76%            | 8.51%            | 18.60%              |
+| **QuillBot**  | 95.85%            | 5.50%            | 24.65%              |
+| **Grammarly** | 73.60%            | 5.00%            | 9.10%               |
+| **GPTZero**   | 92.85%            | 4.75%            | 26.85%              |
+
+**Notes**
+
+- These are simple averages over 20 topics; your mileage may vary by text, topic, and detector version.
+
+- Detector vendors update models and thresholds; scores can change over time.
+
+**Source data**\
+[https://docs.google.com/spreadsheets/d/1kc8bPs6R6rX2mbKoL2kDcGGRepebG7iABxbYAv7lWFY/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1kc8bPs6R6rX2mbKoL2kDcGGRepebG7iABxbYAv7lWFY/edit?gid=0#gid=0)
