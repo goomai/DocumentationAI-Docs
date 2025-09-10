@@ -90,6 +90,10 @@
         ]
       },
       {
+        "group": "APIs",
+        "openapi": "api/humanize-api.json"
+      },
+      {
         "group": "FAQs",
         "pages": [
           {

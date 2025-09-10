@@ -1,0 +1,85 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Humanize API",
+    "version": "1.0.0",
+    "description": "API for analyzing text with Humanize functionality."
+  },
+  "servers": [
+    {
+      "url": "https://api-service.humanizeai.com/api/v1"
+    }
+  ],
+  "paths": {
+    "/humanize/analyze-with-api-key": {
+      "post": {
+        "summary": "Analyze text with Humanize API using an API key",
+        "operationId": "analyzeWithApiKey",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "description": "Text to be analyzed",
+                    "example": "Education is a fundamental human right and a powerful catalyst for personal and societal progress. It encompasses the process of acquiring knowledge, skills, values, and understanding through various means, including formal schooling, informal learning, and life experiences."
+                  },
+                  "ultra_mode": {
+                    "type": "boolean",
+                    "description": "Flag to enable ultra mode",
+                    "example": true
+                  }
+                },
+                "required": [
+                  "text",
+                  "ultra_mode"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful analysis response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "analyzed_text": {
+                      "type": "string",
+                      "description": "The analyzed text response"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - Invalid input data"
+          },
+          "401": {
+            "description": "Unauthorized - Invalid API key"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}
