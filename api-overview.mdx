@@ -1,0 +1,242 @@
+---
+title: Humanize AI API - User Guide
+---
+The Humanize AI API allows you to integrate our humanization technology directly into your applications, workflows, and tools. Transform AI-generated text into natural, human-like writing programmatically.
+
+## Getting Your API Key
+
+1. **&#x20;Access API Settings**
+
+   1. Log in to your HumanizeAI account
+
+   2. Navigate to **Account Settings** or **Dashboard**
+
+   3. Find the **"API Keys"** section
+
+2. **Create Your API Key**
+
+   1. Click **"Create API Key"** button (+ icon)
+
+   2. Enter **API key name** in the dialog: Choose a descriptive name (e.g., "Production API", "Website Integration", "Mobile App")
+
+   3. Click **"Create API Key"**
+
+<Callout uid="7061e3f5-551a-417f-8edd-1906cb3aa53c" kind="info" collapsed="false">
+  **Important**: Copy your key immediately - it's only shown for 15 seconds
+</Callout>
+
+1. **Manage Your Keys**
+
+   1. View all API keys in your account with:
+
+      - Key name and creation date
+
+      - Last used date
+
+      - Status (Active/Inactive)
+
+   2. Available actions:
+
+      - **Copy** the key (active keys only)
+
+      - **Show/Hide** key for security
+
+      - **Deactivate** unused keys
+
+<Callout uid="4c987a51-c8ac-4684-8aa1-e6024a186050" kind="warning" collapsed="false">
+  Once deactivated, an API key cannot be recovered. You'll need to create a new key if needed.
+</Callout>
+
+## Usage Limits by Plan
+
+The Humanize AI API shares the same usage limits as the Humanize AI feature on our website. Your monthly word count and per-request limits apply to both API calls and web interface usage combined.
+
+1. **Free Plan**
+
+   - **Monthly Limit**: 1,500 words
+
+   - **Per Request**: 200 words maximum
+
+   - **API Usage**: Counts toward monthly limit
+
+2. **Essential Plan&#x20;**
+
+   - **Monthly Limit**: 30,000 words
+
+   - **Per Request**: 1,500 words maximum
+
+   - **API Usage**: Counts toward monthly limit
+
+3. **Standard Plan**
+
+   - **Monthly Limit**: 75,000 words
+
+   - **Per Request**: 1,500 words maximum
+
+   - **API Usage**: Counts toward monthly limit
+
+4. **Pro Plan**
+
+   - **Monthly Limit**: 225,000 words
+
+   - **Per Request**: 1,500 words maximum
+
+   - **API Usage**: Counts toward monthly limit
+
+<Callout uid="316cae8f-0d32-42f3-a577-a90a895eff0e" kind="note" collapsed="false">
+  API usage and web interface usage share the same monthly word count limit.
+</Callout>
+
+## Understanding Usage Tracking
+
+### Usage Breakdown
+
+Your word count is split between:
+
+- **Web Interface Usage**: Words used through the platform
+
+- **API Usage**: Words used through API calls
+
+### Monitoring Your Usage
+
+Check the **Word Usage Indicator** in your dashboard:
+
+- Progress bar shows current usage vs total limit
+
+- Color coding indicates usage levels:
+
+  - **Green**: 0-40% usage
+
+  - **Orange**: 41-80% usage
+
+  - **Red**: 81-100% usage
+
+### Usage Rules
+
+- **Minimum text**: 30 words required for processing
+
+- **Guest users**: 1 free check per day (login required for more)
+
+- **Monthly reset**: Limits reset on your billing date
+
+- **Shared limits**: API and web usage count toward same monthly limit
+
+## API Security Best Practices
+
+### Keeping Your Keys Secure
+
+1. **Never share** API keys publicly or in code repositories
+
+2. **Store in environment variables** rather than hardcoding
+
+3. **Use descriptive names** to track different integrations
+
+4. **Deactivate unused keys** immediately
+
+5. **Monitor usage regularly** to detect unauthorized access
+
+### Key Status Management
+
+- **Active Keys**: Can be used for API calls
+
+- **Inactive Keys**: Visible in your list but cannot be used
+
+- **Deactivation**: Immediately revokes access for any applications using that key
+
+## Common Issues and Solutions
+
+- **Authentication Problems**
+
+  - **Issue**: "API key not working"
+
+  - **Solution**: Verify the key is still active in your account settings
+
+- **Usage Limit Errors**
+
+  - **Issue**: "Usage exceeded" error
+
+  - **Solution**: Check your monthly word count limit and current usage
+
+- **Content Length Issues**
+
+  - **Issue**: "Text too short" error
+
+  - **Solution**: Ensure your content has at least 30 words
+
+  - **Issue**: "Text too long" error
+
+  - **Solution**: Check per-request limits (200 words for free, 1,500 for paid plans)
+
+- **Rate Limiting**
+
+  - **Issue**: "Too many requests" error
+
+  - **Solution**: Implement proper rate limiting in your application
+
+## Integration Examples
+
+### Basic API Call Structure
+
+The API uses standard HTTP POST requests with your API key for authentication.
+
+**Required Parameters:**
+
+- API key for authentication
+
+- Text content to humanize (30+ words)
+
+- Optional: Humanization mode (basic/ultra)
+
+**Response Format:**
+
+- Humanized text
+
+- Usage information
+
+- Processing status
+
+### Use Cases
+
+- **Content Management Systems**: Automatically humanize AI-generated articles
+
+- **Writing Applications**: Integrate humanization into editing workflows
+
+- **Marketing Automation**: Transform AI content in email campaigns
+
+- **Custom Workflows**: Build humanization into your specific business processes
+
+## Getting Help
+
+### Technical Documentation
+
+For full API documentation with endpoints, parameters, and examples check our [Humanize AI API Documentation](https://docs.humanizeai.com/api/post-humanize-analyze-with-api-key)
+
+### Before Contacting Support
+
+1. Check your API key is active
+
+2. Verify you haven't exceeded usage limits
+
+3. Ensure your text meets minimum requirements (30+ words)
+
+4. Check that your request format matches the documentation
+
+<Callout uid="e69b9bf5-959b-4bbb-8c4f-0b9010c5c57d" kind="success" collapsed="false">
+  Monitor your usage regularly and upgrade your plan proactively if approaching limits to avoid service interruptions.
+</Callout>
+
+## Next Steps
+
+1. **Create your first API key** with a descriptive name
+
+2. **Test the integration** with a small sample
+
+3. **Monitor usage** to understand your consumption patterns
+
+4. **Implement security best practices** for production use
+
+5. **Scale gradually** and upgrade plans as needed
+
+For technical implementation details, authentication methods, and code examples, visit our complete API documentation.
+
+[**Get API Documentation**](#) | [**Create API Key**](#) | [**Contact Support**](#)

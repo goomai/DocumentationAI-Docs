@@ -91,7 +91,13 @@
       },
       {
         "group": "Humanize AI API",
-        "openapi": "api/humanize-api.json"
+        "openapi": "api/humanize-api.json",
+        "pages": [
+          {
+            "title": "API Overview",
+            "path": "api-overview"
+          }
+        ]
       },
       {
         "group": "FAQs",
