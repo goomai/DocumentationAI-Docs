@@ -34,8 +34,8 @@
         "group": "Getting Started",
         "pages": [
           {
-            "title": "Welcome to HumanizeAI",
-            "path": "welcome"
+            "title": "Introduction",
+            "path": "introduction"
           },
           {
             "title": "Choose Your Plan",
