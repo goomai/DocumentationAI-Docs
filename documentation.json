@@ -90,7 +90,7 @@
         ]
       },
       {
-        "group": "APIs",
+        "group": "Humanize AI API",
         "openapi": "api/humanize-api.json"
       },
       {
