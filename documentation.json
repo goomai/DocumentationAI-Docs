@@ -1,6 +1,6 @@
 {
   "name": "Humanize AI",
-  "initialRoute": "welcome",
+  "initialRoute": "introduction",
   "logo-small-light": "https://fdjsuzcsbmpqsraaooua.supabase.co/storage/v1/object/public/documentation-images/org-3c59c0be-2a43-4f58-bb93-be20f1c05215/doc-02bc87e1-b3eb-4bc8-a539-0eb8f60ca9e9/1756733934909-6qql4uoja84-logo-icon-dark.png",
   "logo-small-dark": "https://fdjsuzcsbmpqsraaooua.supabase.co/storage/v1/object/public/documentation-images/org-3c59c0be-2a43-4f58-bb93-be20f1c05215/doc-02bc87e1-b3eb-4bc8-a539-0eb8f60ca9e9/1756733918863-tcnqwa623qp-logo-icon-light.png",
   "logo-light": "https://fdjsuzcsbmpqsraaooua.supabase.co/storage/v1/object/public/documentation-images/org-3c59c0be-2a43-4f58-bb93-be20f1c05215/doc-02bc87e1-b3eb-4bc8-a539-0eb8f60ca9e9/1756733898484-f1i0ir8y8zu-logo-full-light.png",
