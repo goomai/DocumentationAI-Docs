@@ -137,15 +137,15 @@
         "pages": [
           {
             "title": "Managing Your Subscription",
-            "path": "manage-subscription"
+            "path": "account-and-billing/manage-subscription"
           },
           {
             "title": "Usage Limits and Credits",
-            "path": "usage-and-credits"
+            "path": "account-and-billing/usage-and-credits"
           },
           {
             "title": "Cancellation and Refunds",
-            "path": "cancellation-and-refunds"
+            "path": "account-and-billing/cancellation-and-refunds"
           }
         ]
       }
