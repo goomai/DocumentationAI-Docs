@@ -136,7 +136,7 @@
         "group": "Account & Billing",
         "pages": [
           {
-            "title": "Managing Your Subscription",
+            "title": "Manage Your Subscription",
             "path": "account-and-billing/manage-subscription"
           },
           {
